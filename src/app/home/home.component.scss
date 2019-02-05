@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
 .sidenav-container {
   height: 100%;
 }
@@ -18,11 +20,20 @@
 }
 .mat-toolbar {
   height: 100px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-span .header{
-  text-align: center;
+.header{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'ZCOOL KuaiLe', cursive;
+
 }
-mat-side-nav{
+mat-nav-list > a{
   color: white;
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 30px;
+  margin-bottom: 10px;
+
 }
